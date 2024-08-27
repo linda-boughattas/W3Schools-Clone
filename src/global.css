@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-alatsi: Alatsi;
+  --font-roboto-mono: "Roboto Mono";
+  --font-abeezee: ABeeZee;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #282a35;
+  --color-gray-200: #011627;
+  --color-gray-300: rgba(0, 0, 0, 0.2);
+  --color-khaki-100: #fff4a3;
+  --color-khaki-200: #ffeb95;
+  --color-dimgray: #5c5e69;
+  --color-black: #000;
+  --color-pink: #ffc0c7;
+  --color-whitesmoke: #e7e9eb;
+  --color-mediumseagreen-100: #1fc487;
+  --color-mediumseagreen-200: #04aa6d;
+  --color-gainsboro: #e6e6e6;
+  --color-mediumturquoise-100: #7fdbca;
+  --color-mediumturquoise-200: #7dd8c7;
+  --color-mediumturquoise-300: #72c7ba;
+  --color-lightsalmon: #f78c6c;
+  --color-burlywood-100: #f9c789;
+  --color-burlywood-200: #ecc48d;
+  --color-yellowgreen: #addb67;
+  --color-plum: #c792ea;
+  --color-mediumpurple: #b084eb;
+}

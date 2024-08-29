@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alatsi:wght@400;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
-body {
+body,html {
   margin: 0;
+  padding: 0;
   line-height: normal;
 }
 :root {
   /* fonts */
-  --font-alatsi: Alatsi;
+  --font-alatsi: Alatsi, sans-serif;
   --font-roboto-mono: "Roboto Mono";
   --font-abeezee: ABeeZee, sans-serif;
 
@@ -22,8 +23,10 @@ body {
   --color-black: #000;
   --color-pink: #ffc0c7;
   --color-whitesmoke: #e7e9eb;
+  --color-mediumseagreen-50:#D9EEE1;
   --color-mediumseagreen-100: #1fc487;
   --color-mediumseagreen-200: #04aa6d;
+  --color-mediumseagreen-300: #01925d;
   --color-gainsboro: #e6e6e6;
   --color-mediumturquoise-100: #7fdbca;
   --color-mediumturquoise-200: #7dd8c7;
@@ -34,4 +37,10 @@ body {
   --color-yellowgreen: #addb67;
   --color-plum: #c792ea;
   --color-mediumpurple: #b084eb;
+}
+.button{
+  border: none;
+  border-radius: 20px;
+  width: 180px;
+
 }

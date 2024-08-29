@@ -10,7 +10,7 @@ export default function Navbar(){
                     <ul className="navbar-nav">
                     <li><a href="#">Tutorials</a><i className="fa fa-caret-down"></i></li>
                     <li><a href="#">References</a><i className="fa fa-caret-down"></i></li>
-                    <li><a href="#">Exercies</a><i className="fa fa-caret-down"></i></li>
+                    <li><a href="#">Exercices</a><i className="fa fa-caret-down"></i></li>
                     </ul>
                 <div className="navbar-login">
                     <button className="button white"><a target="_blank" href="https://campus.w3schools.com/collections/course-catalog">Paid Courses</a></button>

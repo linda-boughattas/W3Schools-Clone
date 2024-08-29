@@ -53,4 +53,28 @@ export default [
 `,
         bgColor:'--color-khaki-100',
         textColor:"--color-black"
+},
+    {
+        id: 4,
+        name: "Python",
+        description: "A popular programming language",
+        example:`<br/>
+    if 5 &gt; 2:
+    print(&quot;Five is greater than two!&quot;)<br/>
+
+`,
+        bgColor:'--color-gray-100',
+        textColor:"--color-white"
+},
+    {
+        id: 5,
+        name: "SQL",
+        description: "A language for accessing databases",
+        example:`<br/>
+    if 5 &gt; 2:
+    print(&quot;Five is greater than two!&quot;)<br/>
+
+`,
+        bgColor:'--color-white',
+        textColor:"--color-black"
 }]

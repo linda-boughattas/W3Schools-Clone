@@ -42,5 +42,9 @@ body,html {
   border: none;
   border-radius: 20px;
   width: 180px;
-
 }
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important; /* Or use transparent or initial if needed */
+}
+

@@ -48,12 +48,16 @@ li>i{
     margin-left: 5px;
     color: var(--color-black);
     transform: translateY(3px);
+    margin: 0 5px;
     
 }
 li{
     font-size: 20px;
     font-family: var(--font-abeezee);
     font-weight: 400;
+}
+li:hover, li:hover i {
+    color: var(--color-mediumseagreen-200); 
 }
 li>a{
     color: var(--color-black);

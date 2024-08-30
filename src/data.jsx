@@ -15,7 +15,11 @@ export default [
         &lt;/body&gt;
     &lt;/html&gt;`,
         bgColor:'--color-gray-100',
-        textColor:"--color-white"
+        textColor:"--color-white",
+        buttonColor:'white',
+        learnLink:'https://www.w3schools.com/html/default.asp',
+        referenceLink:'https://www.w3schools.com/tags/default.asp',
+        tryLink:'https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default_default'
 },
     {
         id: 2,
@@ -33,7 +37,11 @@ export default [
 
 `,
         bgColor:'--color-mediumseagreen-50',
-        textColor:"--color-black"
+        textColor:"--color-black",
+        buttonColor:'gray',
+        learnLink:'https://www.w3schools.com/css/default.asp',
+        referenceLink:'https://www.w3schools.com/cssref/index.php',
+        tryLink:'https://www.w3schools.com/css/tryit.asp?filename=trycss_default'
 },
     {
         id: 3,
@@ -52,7 +60,11 @@ export default [
 
 `,
         bgColor:'--color-khaki-100',
-        textColor:"--color-black"
+        textColor:"--color-black",
+        buttonColor:'gray',
+        learnLink:'https://www.w3schools.com/js/default.asp',
+        referenceLink:'https://www.w3schools.com/jsref/default.asp',
+        tryLink:'https://www.w3schools.com/js/tryit.asp?filename=tryjs_default'
 },
     {
         id: 4,
@@ -64,7 +76,11 @@ export default [
 
 `,
         bgColor:'--color-gray-100',
-        textColor:"--color-white"
+        textColor:"--color-white",
+        buttonColor:'white',
+        learnLink:'https://www.w3schools.com/python/default.asp',
+        referenceLink:'https://www.w3schools.com/python/python_reference.asp',
+        tryLink:'https://www.w3schools.com/python/trypython.asp?filename=demo_indentation'
 },
     {
         id: 5,
@@ -76,5 +92,9 @@ export default [
 
 `,
         bgColor:'--color-white',
-        textColor:"--color-black"
+        textColor:"--color-black",
+        buttonColor:'gray',
+        learnLink:'https://www.w3schools.com/sql/default.asp',
+        referenceLink:'https://www.w3schools.com/sql/sql_ref_keywords.asp',
+        tryLink:'https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where'
 }]

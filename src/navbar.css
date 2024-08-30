@@ -22,6 +22,8 @@ nav{
     width:100%;
     white-space: nowrap;
     margin-top: 0;
+    font-size: 16px;
+    font-weight: normal;
 }
 .navbar-login .white{
     background-color: var(--color-white);
@@ -30,8 +32,8 @@ nav{
     margin-right: 20px;
 }
 .navbar-header{
-    width: 71px;
-    height: 60px;
+    width: 51px;
+    height: 40px;
     padding: 0;
 }
 .navbar-brand>img{
@@ -44,15 +46,12 @@ ul{
     gap:20px;
 }
 li>i{
-    font-size:27.5px;
-    margin-left: 5px;
+    font-size:16px;
     color: var(--color-black);
-    transform: translateY(3px);
-    margin: 0 5px;
-    
+    margin: 0 3px;  
 }
 li{
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--font-abeezee);
     font-weight: 400;
 }

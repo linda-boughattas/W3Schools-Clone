@@ -10,14 +10,14 @@ export default function Component(props){
       }, []);
     console.log(props)
     return(
-        <div className="component-container" style={{ backgroundColor: `var(${props.bgColor})` }}>
+        <div className="container" style={{ backgroundColor: `var(${props.bgColor})` }}>
             <div className="component-title">
                 <h1 style={{ color: `var(${props.textColor})` }}>{props.name}</h1>
                 <p style={{ color: `var(${props.textColor})` }}>{props.description}</p>
                 <button className="button green">Learn {props.name}</button>
                 <button className="button white">{props.name} Reference</button>
             </div>
-            <div className="compoenet-example">
+            <div className="component-example">
                 <h6>{props.name} Example:</h6>
                 <pre className="component-code">
                 <code dangerouslySetInnerHTML={{ __html: props.example }}></code>

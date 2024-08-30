@@ -42,9 +42,19 @@ body,html {
   border: none;
   border-radius: 20px;
   width: 180px;
+  font-size: 18px;
+  font-family: Alatsi;
+  font-weight: 400;
+  letter-spacing: 0%;
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none !important;
   color: inherit !important; /* Or use transparent or initial if needed */
 }
-
+.Bcomp-list{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.wrapper{
+  width: 100vw;
+}
